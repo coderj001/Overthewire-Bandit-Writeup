@@ -53,3 +53,15 @@
 - To read type `cat 'spaces in this filename'`
 - Copy the password `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
 - Then type `exit`
+
+
+#### Bandit: Level-3->4
+
+![bandit level-3->4](https://i.imgur.com/g0G20io.png)
+
+- Type comand `ssh bandit.labs.overthewire.org -p 2220 -l bandit3`
+- Type the password `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
+- Type `cd inhere` to enter inhere directory and then type `ls -a` to check for hidden file.
+- Type `cat .hidden`
+- Copy the password `pIwrPrtPN36QITSp3EQaw936yaFoFgAB`
+- Then type `exit`
