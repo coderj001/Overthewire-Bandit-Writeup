@@ -26,7 +26,20 @@
 - Type the password `bandit0`
 - As mention the password for next level store in readme, use `cat readme`
 - Copy the password 'boJ9jbbUNNfktd78OOpsqOltutMc3MY1'
+- Type `exit`
 
 **SSH more info: [link1](https://youtu.be/qWKK_PNHnnA), [link2](https://youtu.be/hQWRp-FdTpc)**
 
 **cat more info: [link1](https://linuxize.com/post/linux-cat-command/)**
+
+
+#### Bandit: Level 1->2
+
+![bandit level-1->2](https://i.imgur.com/WXRVSFp.png)
+
+- Type comand `ssh bandit.labs.overthewire.org -p 2220 -l bandit1`
+- Type the password `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
+- To read - file. Type command `cat ./-`
+- Copy the password `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
+- Then type `exit`
+
