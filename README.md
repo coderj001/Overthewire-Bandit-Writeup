@@ -1,6 +1,6 @@
 # Bandit: OVERTHEWIRE
 
-##### This is a basic ctf by overthewire, wargames catagory. This writeup is userfull beginner friendly. Follow extra link for details.
+##### This is a basic ctf by overthewire, wargames catagory. This writeup is userfull beginner friendly. Follow the link for extra details.
 
 **Here is the [link](https://overthewire.org/wargames/bandit/) to ctf**
 
@@ -27,4 +27,6 @@
 - As mention the password for next level store in readme, use `cat readme`
 - Copy the password 'boJ9jbbUNNfktd78OOpsqOltutMc3MY1'
 
-**For more info [link1](https://youtu.be/qWKK_PNHnnA), [link2](https://youtu.be/hQWRp-FdTpc)**
+**SSH more info: [link1](https://youtu.be/qWKK_PNHnnA), [link2](https://youtu.be/hQWRp-FdTpc)**
+
+**cat more info: [link1](https://linuxize.com/post/linux-cat-command/)**
