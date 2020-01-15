@@ -22,7 +22,7 @@
 
 ![bandit level-0->1](https://i.imgur.com/LpCDx2S.png)
 
-- Type comand `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
 - Type the password `bandit0`
 - As mention the password for next level store in readme, use `cat readme`
 - Copy the password `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
@@ -37,7 +37,7 @@
 
 ![bandit level-1->2](https://i.imgur.com/WXRVSFp.png)
 
-- Type comand `ssh bandit.labs.overthewire.org -p 2220 -l bandit1`
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit1`
 - Type the password `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
 - To read - file. Type command `cat ./-`
 - Copy the password `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
@@ -48,7 +48,7 @@
 
 ![bandit level-2->3](https://i.imgur.com/f3wlJ5p.png)
 
-- Type comand `ssh bandit.labs.overthewire.org -p 2220 -l bandit2`
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit2`
 - Type the password `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
 - To read type `cat 'spaces in this filename'`
 - Copy the password `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
@@ -59,9 +59,39 @@
 
 ![bandit level-3->4](https://i.imgur.com/g0G20io.png)
 
-- Type comand `ssh bandit.labs.overthewire.org -p 2220 -l bandit3`
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit3`
 - Type the password `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
 - Type `cd inhere` to enter inhere directory and then type `ls -a` to check for hidden file.
 - Type `cat .hidden`
 - Copy the password `pIwrPrtPN36QITSp3EQaw936yaFoFgAB`
 - Then type `exit`
+
+
+#### Bandit: Level-4->5
+
+![bandit level4->5](https://i.imgur.com/OkrllKP.png)
+
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit4`
+- Type the password `pIwrPrtPN36QITSp3EQaw936yaFoFgAB`
+- Type `cd inhere` to enter inhere directory and then type `ls` to check for files or directorys.
+- Type `cat ./*`
+- Copy the password `koReBOKuIDDepwhWk7jZC0RTdopnAYKh`
+- Then type `exit`
+
+
+#### Bandit: Level-5->6
+
+![bandit level4->5](https://i.imgur.com/02VHSoW.png)
+
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit5`
+- Type the password `koReBOKuIDDepwhWk7jZC0RTdopnAYKh`
+- Type `cd inhere` to enter inhere directory and then type `ls` to check for files or directory.
+- So hints are given that file will be 'human-readable,
+1033 bytes in size,
+not executable'
+- Using `find` command we findout the right file
+- `find . -type f -size 1033c -exec cat {} \;` is collective command to find it practically.
+- Copy the password `DXjZPULLxYr17uwoI01bNLQbtFemEgo7`
+- Then type `exit`
+
+**Find more info: ![link1](http://man7.org/linux/man-pages/man1/find.1.html)**
