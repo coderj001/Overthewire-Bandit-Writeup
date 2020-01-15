@@ -94,4 +94,4 @@ not executable'
 - Copy the password `DXjZPULLxYr17uwoI01bNLQbtFemEgo7`
 - Then type `exit`
 
-**Find more info: ![link1](http://man7.org/linux/man-pages/man1/find.1.html)**
+**Find more info: [link1](http://man7.org/linux/man-pages/man1/find.1.html)**
