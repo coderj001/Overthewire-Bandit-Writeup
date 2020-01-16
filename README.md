@@ -95,3 +95,35 @@ not executable'
 - Then type `exit`
 
 **Find more info: [link1](http://man7.org/linux/man-pages/man1/find.1.html)**
+
+
+#### Bandit : Level-6->7
+
+![bandit level6->7](https://i.imgur.com/c7ls7ro.png)
+
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit6`
+- Type the password `DXjZPULLxYr17uwoI01bNLQbtFemEgo7`
+- Type `ls` to check for files or directory.
+- So hints are given that file will be 'owned by user bandit7
+owned by group bandit6
+33 bytes in size'
+- Using `find` command we findout the right file
+- `find / -user bandit7 -group bandit6 -size 33c -exec cat {} \; 2>/dev/null` is collective command to find it practically.
+- Copy the password `HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`
+- Then type `exit`
+
+**/dev/null more info: [link1](https://youtu.be/pIL5LZQn3W8)**
+
+
+#### Bandit : Level-7->8
+
+![bandit7->8](https://i.imgur.com/ChMVSZb.png)
+
+
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit6`
+- Type the password `HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`
+- As the hint is given that password contain in `data.txt` has in same line as 'millionth'
+- `cat data.txt | grep "millionth"` will find out the password
+- Copy the password `cvX2JJa4CFALtqS87jk27qwqGhBM9plV`
+- Then type `exit`
+
