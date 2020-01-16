@@ -120,10 +120,43 @@ owned by group bandit6
 ![bandit7->8](https://i.imgur.com/ChMVSZb.png)
 
 
-- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit6`
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit7`
 - Type the password `HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`
 - As the hint is given that password contain in `data.txt` has in same line as 'millionth'
 - `cat data.txt | grep "millionth"` will find out the password
 - Copy the password `cvX2JJa4CFALtqS87jk27qwqGhBM9plV`
 - Then type `exit`
 
+#### Bandit : Level-8->9
+
+![bandit8->9](https://i.imgur.com/m8lzxwE.png)
+
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit8`
+- Type the password `cvX2JJa4CFALtqS87jk27qwqGhBM9plV`
+- Use command `cat data.txt | sort | uniq -c` and find the line which have `1` beginning.
+- Copy the password `UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR`
+- Then type `exit`
+
+
+#### Bandit : Level-9->10
+
+![bandit9->10](https://i.imgur.com/q3by5mR.png)
+
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit9`
+- Type the password `UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR`
+- Use `string data.txt` to find the password
+- Copy the password `truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk`
+- Then type `exit`
+
+**strings more info: [link1](https://youtu.be/wBoc0vJTCaM)**
+
+
+#### Bandit : Level-10->11
+
+![bandit10->11](https://i.imgur.com/syAWMu2.png)
+
+- Type command `ssh bandit.labs.overthewire.org -p 2220 -l bandit10`
+- Type the password `truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk`
+- Use command `cat data.txt | base64 -d`
+- Copy the password `IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR`
+- Then type `exit`
